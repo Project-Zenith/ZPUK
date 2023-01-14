@@ -1,6 +1,9 @@
 <div align='center'>
 <img src="screenshots/Zenith.png" />  
 
+# IMPORT PANELS NONFUNCIONAL  
+Yes I am very aware of this issue, I have yet to fix it as I do not have asset hosting currently  
+
 # Zenith Unity Kit  
 The Zenith Unity Kit is a new project designed to bring together anything you may need in Unity3D  
 We have no target production for what you can use, as our target IS the Unity3D Engine  
