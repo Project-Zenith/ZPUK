@@ -9,7 +9,7 @@ public class Zenith_updateCheck : MonoBehaviour
     [InitializeOnLoad]
     public class Startup
     {
-        public static string versionURL = "https://trigon.systems/all-sdk/updateSDK/version.txt";
+        public static string versionURL = "https://trigon.systems/ZPUK/updateZPUK/version.txt";
         public static string currentVersion = File.ReadAllText("Assets/Zenith/Zenithversion.txt");
         static Startup()
         {
@@ -26,7 +26,7 @@ public class Zenith_updateCheck : MonoBehaviour
             
             if (serverVersion != thisVersion)
             {
-                Zenith_AutomaticUpdateAndInstall.AutomaticSDKInstaller();
+                Zenith_AutomaticUpdateAndInstall.AutomaticZPUKInstaller();
             }
         }
     }

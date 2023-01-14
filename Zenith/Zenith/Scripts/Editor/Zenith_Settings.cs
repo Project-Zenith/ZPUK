@@ -20,9 +20,9 @@ namespace Zenith
         private string backgroundConfig = "BackgroundVideo.txt";
         private static string projectDownloadPath = "Assets/Toolkit/Zenith/Assets/";
         private static GUIStyle ToolkitHeader;
-        public Color SDKColor = Color.white;
+        public Color ZPUKColor = Color.white;
         public static bool UITextRainbow { get; set; }
-        //public Gradient SDKGRADIENT;
+        //public Gradient ZPUKGRADIENT;
 
         [MenuItem("Zenith/Settings", false, 501)]
         public static void OpenSplashScreen()
@@ -84,10 +84,10 @@ namespace Zenith
             GUILayout.Box("", ToolkitHeader);
             GUILayout.Space(4);
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
         );
             EditorGUILayout.BeginHorizontal();
             if (GUILayout.Button("Zenith Productions"))
@@ -102,56 +102,56 @@ namespace Zenith
             }
             GUILayout.EndHorizontal();
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
         );
 
             GUILayout.Space(4);
             EditorGUILayout.BeginVertical();
             GUI.backgroundColor = new Color(
-           UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-           UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-           UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-           UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+           UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+           UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+           UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+           UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
        );
 
-            EditorGUILayout.LabelField("SDK Settings", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Zenith Settings", EditorStyles.boldLabel);
             EditorGUILayout.Space(10);
             //if (GUILayout.Button("Set Color"))
             //{
-            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
-            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
-            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
-            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
+            //    UnityEditor.EditorPrefs.SetFloat("ZPUKColor_R", ZPUKColor.r);
+            //    UnityEditor.EditorPrefs.SetFloat("ZPUKColor_G", ZPUKColor.g);
+            //    UnityEditor.EditorPrefs.SetFloat("ZPUKColor_B", ZPUKColor.b);
+            //    UnityEditor.EditorPrefs.SetFloat("ZPUKColor_A", ZPUKColor.a);
             //}
 
             EditorGUI.BeginChangeCheck();
 
-            SDKColor = EditorGUI.ColorField(new Rect(3, 270, position.width - 6, 15), "Kit Color", SDKColor);
-            //SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 360, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);
+            ZPUKColor = EditorGUI.ColorField(new Rect(3, 270, position.width - 6, 15), "Kit UI Color", ZPUKColor);
+            //ZPUKGRADIENT = EditorGUI.GradientField(new Rect(3, 360, position.width - 6, 15), "ZPUK Gradient", ZPUKGRADIENT);
 
             if (EditorGUI.EndChangeCheck())
             {
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_R", ZPUKColor.r);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_G", ZPUKColor.g);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_B", ZPUKColor.b);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_A", ZPUKColor.a);
             }
 
             EditorGUILayout.Space();
             if (GUILayout.Button("Reset Color"))
             {
-                Color SDKColor = Color.gray;
+                Color ZPUKColor = Color.gray;
 
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_R", ZPUKColor.r);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_G", ZPUKColor.g);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_B", ZPUKColor.b);
+                UnityEditor.EditorPrefs.SetFloat("ZPUKColor_A", ZPUKColor.a);
             }
 
-            //SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 290, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);
+            //ZPUKGRADIENT = EditorGUI.GradientField(new Rect(3, 290, position.width - 6, 15), "ZPUK Gradient", ZPUKGRADIENT);
 
             EditorGUILayout.Space(10);
             EditorGUILayout.EndVertical();
@@ -227,10 +227,10 @@ namespace Zenith
 
             GUILayout.Space(4);
             GUI.backgroundColor = new Color(
-             UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-             UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-             UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-             UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+             UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+             UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+             UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+             UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
          );
             GUILayout.Label("Asset path:");
             GUILayout.BeginHorizontal();

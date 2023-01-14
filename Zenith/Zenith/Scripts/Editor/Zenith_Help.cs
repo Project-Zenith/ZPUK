@@ -19,10 +19,10 @@ namespace Zenith
         {
             Zenith_ImportManager.updateConfig();
         }
-        public static void UpdatesdkBtn()
+        public static void UpdateZPUKBtn()
         {
 
-            Zenith_AutomaticUpdateAndInstall.AutomaticSDKInstaller();
+            Zenith_AutomaticUpdateAndInstall.AutomaticZPUKInstaller();
         }
 
 

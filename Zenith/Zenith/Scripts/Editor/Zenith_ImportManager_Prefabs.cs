@@ -11,7 +11,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager_Prefabs
     {
-        private const string V = "https://trigon.systems/all-sdk/assets/prefabs/";
+        private const string V = "https://trigon.systems/ZPUK/assets/prefabs/";
         public static string configName = "importConfig_prefabs.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

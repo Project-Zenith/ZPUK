@@ -89,16 +89,16 @@ namespace Zenith
             GUILayout.Box("", style: _chillHeader);
             GUILayout.Space(4);
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
             );
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Check for Updates"))
             {
 
-                Zenith_AutomaticUpdateAndInstall.AutomaticSDKInstaller();
+                Zenith_AutomaticUpdateAndInstall.AutomaticZPUKInstaller();
             }
             GUILayout.EndHorizontal();
             GUILayout.BeginHorizontal();
@@ -129,17 +129,17 @@ namespace Zenith
 
             //Imports V!V
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
             );
             _changeLogScroll = GUILayout.BeginScrollView(_changeLogScroll, GUILayout.Width(_sizeX));
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
             );
             foreach (var asset in assets)
             {

@@ -21,19 +21,19 @@ namespace Zenith
         //get server version
         public static string versionURL = "https://trigon.systems/zenithversion.txt";
         //get download url
-        public static string unitypackageUrl = "https://trigon.systems/all-sdk/updatesdk/newest/Zenith"; //sdk
+        public static string unitypackageUrl = "https://trigon.systems/ZPUK/updateZPUK/newest/Zenith"; //ZPUK
 
         //GetVersion
         public static string currentVersion = File.ReadAllText("Assets/Zenith/Zenithversion.txt");
 
 
-        //select where to be imported (sdk)
+        //select where to be imported (ZPUK)
         public static string assetPath = "Assets\\";
         //Custom name for downloaded unitypackage
         public static string assetName = "latest Zenith.unitypackage";
         //gets Toolkit Directory Path
         public static string ToolkitPath = "Assets\\Zenith\\";
-        public async static void AutomaticSDKInstaller()
+        public async static void AutomaticZPUKInstaller()
         {
             //Starting Browser
             HttpClient httpClient = new HttpClient();
@@ -75,7 +75,7 @@ namespace Zenith
             ZenithLog("Asking for Approval..");
             if (EditorUtility.DisplayDialog("Zenith Updater", "Your Version (V" + currentVersion.ToString() + ") is Outdated!" + " do you want to Download and Import the Newest Version?", "Yes", "No"))
             {
-                //starting deletion of old sdk
+                //starting deletion of old ZPUK
                 await DeleteAndDownloadAsync();
             }
             else

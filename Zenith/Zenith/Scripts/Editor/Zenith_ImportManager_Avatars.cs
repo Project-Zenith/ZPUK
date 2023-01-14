@@ -10,7 +10,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager_Avatars
     {
-        private const string V = "https://trigon.systems/all-sdk/assets/avatars/";
+        private const string V = "https://trigon.systems/ZPUK/assets/avatars/";
         public static string configName = "importConfig_avatars.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

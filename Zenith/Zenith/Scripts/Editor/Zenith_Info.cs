@@ -72,10 +72,10 @@ namespace Zenith
             ZenithHeaderLearnMoreButton.active.background = texture;
             GUILayout.Space(4);
             GUI.backgroundColor = new Color(
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
-            UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_R"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_G"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_B"),
+            UnityEditor.EditorPrefs.GetFloat("ZPUKColor_A")
             );
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Zenith Productions Unity Kit"))
