@@ -10,7 +10,7 @@ namespace Zenith
     [InitializeOnLoad]
     public class Zenith_ImportPanel_Addons : EditorWindow
     {
-       private const string Url = "https://github.com/Zenith-Productions/Zenith-Unity-Kit/";
+       private const string Url = "https://github.com/Zenith-Productions/ZPUK/";
         private const string Url1 = "https://trigon.systems/";
         private const string Link = "";
         private const string Link1 = "";

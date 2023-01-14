@@ -11,7 +11,7 @@ namespace Zenith
         [MenuItem("Zenith/Help/Github", false, 1049)]
         public static void OpenDiscordLink()
         {
-            Application.OpenURL("https://github.com/Zenith-Productions/Zenith-Unity-Kit");
+            Application.OpenURL("https://github.com/Zenith-Productions/ZPUK");
         }
         
         [MenuItem("Zenith/Utilities/Update configs", false, 1000)]

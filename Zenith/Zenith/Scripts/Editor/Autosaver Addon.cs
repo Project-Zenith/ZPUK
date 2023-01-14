@@ -84,7 +84,7 @@ namespace AutoSaver
 			GUI.backgroundColor = Color.red;
 			if (GUILayout.Button("Github"))
 			{
-				Application.OpenURL("https://github.com/Zenith-Productions/Zenith-Unity-Kit");
+				Application.OpenURL("https://github.com/Zenith-Productions/ZPUK");
 			}
 
 			GUI.backgroundColor = Color.yellow;
@@ -96,7 +96,7 @@ namespace AutoSaver
 			GUI.backgroundColor = Color.green;
 			if (GUILayout.Button("Support"))
 			{
-				Application.OpenURL("https://github.com/Zenith-Productions/Zenith-Unity-Kit/issues");
+				Application.OpenURL("https://github.com/Zenith-Productions/ZPUK/issues");
 			}
 
 			GUI.backgroundColor = Color.white;

@@ -6,7 +6,7 @@ namespace Zenith
     [InitializeOnLoad]
     public class Zenith_Info : EditorWindow
     {
-        private const string Url = "https://github.com/Zenith-Productions/Zenith-Unity-Kit/";
+        private const string Url = "https://github.com/Zenith-Productions/ZPUK/";
         private const string Url1 = "https://trigon.systems/";
         private const string Link = "";
         private const string Link1 = "https://trigonstatus.statuspage.io";
@@ -101,7 +101,7 @@ namespace Zenith
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Version 1.0.1"))
             {
-                Application.OpenURL("https://github.com/Zenith-Productions/Zenith-Unity-Kit/blob/main/CHANGELOG.md");
+                Application.OpenURL("https://github.com/Zenith-Productions/ZPUK/blob/main/CHANGELOG.md");
             }
             GUILayout.EndHorizontal();
             GUILayout.Label("Zenith Version 1.0.1");
