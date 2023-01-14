@@ -1,0 +1,32 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/editortools/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchKit2DepricationAnnouncement": {
+            "name": "ZenithUtils Importer is Not Finished\nDo not expect anything in here to work\nThis is Early Release"
+        },
+
+        "addonsSpacer": {
+            "name": "Addons"
+        },
+        "Zenith": {
+            "name": "Zenith Productions",
+            "file": "Zenith.unitypackage"
+        },
+        
+        "placeHolderSpacer": {
+            "name": "Zenith Utilities"
+        }
+
+        
+        
+    }
+}
