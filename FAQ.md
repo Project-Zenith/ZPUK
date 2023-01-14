@@ -1,5 +1,8 @@
 # FAQ
 
+> The Import Panels don't work!  
+- Yes I am aware of this, I do not have a hosting solution for the assets currently, They will work when I do have a way.    
+
 > I just updated and im getting errors!  
 - Delete the old version and then import the new version, This is probably because of file structure changes.  
 
