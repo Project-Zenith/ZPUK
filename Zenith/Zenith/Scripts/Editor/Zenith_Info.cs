@@ -99,37 +99,37 @@ namespace Zenith
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("Version 1.0.0"))
+            if (GUILayout.Button("Version 1.0.1"))
             {
                 Application.OpenURL("https://github.com/Zenith-Productions/Zenith-Unity-Kit/blob/main/CHANGELOG.md");
             }
             GUILayout.EndHorizontal();
-            GUILayout.Label("Zenith Version 1.0.0");
+            GUILayout.Label("Zenith Version 1.0.1");
             GUILayout.Space(2);
-            GUILayout.Label("Built in Changelog below");
+            GUILayout.Label("ZPUK imported correctly if you are seeing this");
             changeLogScroll = GUILayout.BeginScrollView(changeLogScroll, GUILayout.Width(390));
 
             GUILayout.Label(
 @"
-== V1.0.0 ==  
+== Zentih Productions Unity Kit ==
 
-Overall:  
-- Finally Released!  
-------------------------------------------------------------  
-∞∞∞∞∞∞∞∞∞Recovery tools∞∞∞∞∞∞∞∞∞  
-- Object Property Changer  
-- Bones Copier  
-- Component Copier  
-- Duplicator  
-- Material Finder  
-- Incorrect Script Identifier  
-- Asset Loader  
-- Missing Script Remover  
-------------------------------------------------------------  
-∞∞∞∞∞∞∞∞∞Contributors to Zenith Unity Kit∞∞∞∞∞∞∞∞∞  
-> Developer: PhoenixAceVFX  
-- Contributor : WTFBlaze  
-===============================================================  
+This Unity Kit is hopefully providing everything you need
+
+------------------------------------------------------------
+∞∞∞∞∞∞∞∞∞∞∞∞Information∞∞∞∞∞∞∞∞∞∞∞∞
+This unity kit provides tools and scripts for you
+I am not responsible for misuse of these tools and scripts
+The goal is to become the main package anyone needs
+If you have issues visit the github repository issues tab
+Updates can be done from within unity itself (or manually)
+Bugs/Issues can be reported via github issues
+There is not a discord for Zenith Productions
+
+------------------------------------------------------------
+∞∞∞∞∞∞∞Contributors to Zenith Unity Kit∞∞∞∞∞∞∞
+> Developer: PhoenixAceVFX
+- Contributor : WTFBlaze
+============================================
 ");
             GUILayout.EndScrollView();
             GUILayout.Space(4);
