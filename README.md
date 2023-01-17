@@ -4,7 +4,7 @@
 [![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Trigon.Systems&style=for-the-badge&up_color=cyan&up_message=Online&url=https%3A%2F%2Ftrigon.systems)](https://trigon.systems)
 [![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=PaleRa1n.cf&style=for-the-badge&up_color=cyan&up_message=Online&url=https%3A%2F%2Fpalera1n.cf)](https://palera1n.cf)
 [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
-[![GitHub all releases](https://img.shields.io/github/downloads/Zenith-Productions/ZPUK/total?color=cyan&label=Total%20Downloads&logo=github&logoColor=cyan&style=for-the-badge)](https://github.com/Zenith-Productions/ZPUK/releases/latest)  
+[![GitHub all releases](https://img.shields.io/github/downloads/Zenith-Team/ZPUK/total?color=cyan&label=Total%20Downloads&logo=github&logoColor=cyan&style=for-the-badge)](https://github.com/Zenith-Team/ZPUK/releases/latest)  
 
 # IMPORT PANELS NONFUNCIONAL  
 Yes I am very aware of this issue, I have yet to fix it as I do not have asset hosting currently  
@@ -16,7 +16,7 @@ There is no Discord Server for Zenith, Everything will be on the GitHub Reposito
 
 [![faq](screenshots/faq.png)](./FAQ.md)  
 [![changelog](screenshots/changelog.png)](./CHANGELOG.md)  
-[![download](screenshots/download.png)](https://github.com/Zenith-Productions/ZPUK/releases/latest)  
+[![download](screenshots/download.png)](https://github.com/Zenith-Team/ZPUK/releases/latest)  
 
 # Full Screenshot  
 <img src="screenshots/UI.png" />
