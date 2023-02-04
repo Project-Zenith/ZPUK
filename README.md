@@ -6,13 +6,13 @@
 [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 [![GitHub all releases](https://img.shields.io/github/downloads/Project-Zenith/ZPUK/total?color=cyan&label=Total%20Downloads&logo=github&logoColor=cyan&style=for-the-badge)](https://github.com/Project-Zenith/ZPUK/releases/latest)  
 
-# IMPORT PANELS NONFUNCIONAL  
-Yes I am very aware of this issue, I have yet to fix it as I do not have asset hosting currently  
+# IMPORT PANELS NONFUNCTIONAL  
+Yes I am very aware of this issue, I have yet to fix it as I do not have asset hosting currently.  
 
 # Zenith Unity Kit  
-The Zenith Unity Kit is a new project designed to bring together anything you may need in Unity3D  
-We have no target production for what you can use, as our target IS the Unity3D Engine  
-There is no Discord Server for Zenith, Everything will be on the GitHub Repository  
+The Zenith Unity Kit is a new project designed to bring together anything you may need in Unity3D.  
+We have no target production for what you can use, as our target IS the Unity3D Engine.  
+There is no Discord Server for Zenith, Everything will be on the GitHub Repository.  
 
 [![faq](screenshots/faq.png)](./FAQ.md)  
 [![changelog](screenshots/changelog.png)](./CHANGELOG.md)  
