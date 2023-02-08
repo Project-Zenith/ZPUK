@@ -99,12 +99,12 @@ namespace Zenith
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("Version 1.0.1"))
+            if (GUILayout.Button("Version 1.0.2"))
             {
                 Application.OpenURL("https://github.com/Zenith-Productions/ZPUK/blob/main/CHANGELOG.md");
             }
             GUILayout.EndHorizontal();
-            GUILayout.Label("Zenith Version 1.0.1");
+            GUILayout.Label("Zenith Version 1.0.2");
             GUILayout.Space(2);
             GUILayout.Label("ZPUK imported correctly if you are seeing this");
             changeLogScroll = GUILayout.BeginScrollView(changeLogScroll, GUILayout.Width(390));
