@@ -11,7 +11,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager_EditorTools
     {
-        private const string V = "https://trigon.systems/ZPUK/assets/editortools/";
+        private const string V = "https://zenith.trigon.systems/ZPUK/assets/editortools/";
         public static string configName = "importConfig_editortools.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

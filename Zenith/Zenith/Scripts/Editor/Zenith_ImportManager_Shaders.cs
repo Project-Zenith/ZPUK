@@ -10,7 +10,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager_Shaders
     {
-        private const string V = "https://trigon.systems/ZPUK/assets/shaders/";
+        private const string V = "https://zenith.trigon.systems/ZPUK/assets/shaders/";
         public static string configName = "importConfig_shaders.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

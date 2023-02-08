@@ -10,7 +10,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager
     {
-        private const string V = "https://trigon.systems/ZPUK/assets/";
+        private const string V = "https://zenith.trigon.systems/ZPUK/assets/";
         public static string configName = "importConfig.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

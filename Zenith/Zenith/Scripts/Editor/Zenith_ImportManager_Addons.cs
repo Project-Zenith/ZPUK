@@ -11,7 +11,7 @@ namespace Zenith
 {
     public class Zenith_ImportManager_Addons
     {
-        private const string V = "https://trigon.systems/ZPUK/assets/Addons/";
+        private const string V = "https://zenith.trigon.systems/ZPUK/assets/Addons/";
         public static string configName = "importConfig_addons.json";
         public static string serverUrl = V;
         public static string internalServerUrl = V;

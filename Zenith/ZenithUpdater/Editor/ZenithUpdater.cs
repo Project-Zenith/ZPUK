@@ -19,9 +19,9 @@ namespace Zenith
     {
 
         //get server version
-        public static string versionURL = "https://trigon.systems/zenithversion.txt";
+        public static string versionURL = "https://zenith.trigon.systems/zenithversion.txt";
         //get download url
-        public static string unitypackageUrl = "https://trigon.systems/ZPUK/updateZPUK/newest/Zenith"; //ZPUK
+        public static string unitypackageUrl = "https://zenith.trigon.systems/ZPUK/updateZPUK/newest/Zenith"; //ZPUK
 
         //GetVersion
         public static string currentVersion = File.ReadAllText("Assets/Zenith/Zenithversion.txt");
