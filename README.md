@@ -6,6 +6,10 @@
 [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 [![GitHub all releases](https://img.shields.io/github/downloads/Project-Zenith/ZPUK/total?color=cyan&label=Total%20Downloads&logo=github&logoColor=cyan&style=for-the-badge)](https://github.com/Project-Zenith/ZPUK/releases/latest)  
 
+# Development Has Ceased  
+I haven't touched this in months due to a lack of interest in unity  
+I will leave this a public archive for now. 
+
 # IMPORT PANELS NONFUNCTIONAL  
 Yes I am very aware of this issue, I have yet to fix it as I do not have asset hosting currently.  
 
