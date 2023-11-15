@@ -27,7 +27,9 @@ There is no Discord Server for Zenith, Everything will be on the GitHub Reposito
 
 # License
 
-**This repository intentionally omits a supplementary license.** Exclusive copyright is held by the contributors.
-The source code hosted in this repository may not be copied, distributed, or modified without risk of take-downs, shake-downs, or litigation.
-For more information regarding the conditions of use where repositories omit a supplemental license; see [GitHub Terms of Service](https://docs.github.com/en/github/site-policy/github-terms-of-service#d-user-generated-content), or [the summary of 'No License' conditions](https://choosealicense.com/no-permission/).
+**This repository assumes WTFPL as it is unmaintained**  
+Do as you want, I almost never use unity anymore  
+No reason for me to restrict control when I don't even bother with this  
+Be careful of where you download forks/modifications from  
+I can't save you if you got a copy infected with something  
 </div>
